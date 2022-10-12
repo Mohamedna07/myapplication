@@ -1,0 +1,90 @@
+body{
+    background-image: url(/b1.jpg);
+    background-size: cover;
+    color: black;
+    font-weight: bold;
+
+}
+.field{
+    border: 4px solid rgb(242, 247, 242);
+    border-top-color: rgba(0, 8, 0, 0.521);
+    border-bottom-color: rgba(0, 8, 0, 0.521);
+
+}
+legend{
+    font-weight: bold;
+}
+
+.head{
+    
+    
+   
+   margin-left: 230px;
+}
+.form{
+    
+    margin-left: 300px;
+}
+.fathernm{
+    
+    border: none;
+   
+    margin-left: 200px;
+}
+.age{
+    margin-left: 264px;
+}
+.stnm{
+    margin-left: 205px;
+}
+.add{
+    margin-left: 300px;
+}
+.month{
+    margin-left: 190px;
+}
+.phno{
+    margin-left: 182px;
+}
+.text{
+    margin-left: 300px;
+}
+.radio{
+    margin-left: 300px;
+}
+.ql{
+    margin-left: 300px;
+}
+.course{
+    margin-left: 300px;  
+}
+.agree{
+    margin-left: 300px;   
+}
+.d{
+    
+    margin-left: 270px;
+}
+.btn{
+    font-weight: bold;
+    font-size: 1em;
+    border-color: rgba(3, 0, 0, 0.527);
+    padding: 4px;
+background-color: rgba(0, 255, 255, 0.411);
+
+}
+.bord{
+    
+background-color: rgba(8, 1, 1, 0.212);
+border: 8px groove gray;
+width: 100px;
+height: 150px;
+margin-right: 300px;
+float: right;
+
+}
+.inputbox{
+
+    margin-left: 250px;
+}
+
