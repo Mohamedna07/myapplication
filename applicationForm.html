@@ -4,15 +4,32 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="application.css">
+   
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Application Form</title>
 </head>
 <body >
+
+<div class="nav">
+   
+    <img src="/vebbox.png" class="img" width="70px" height="70px" alt="">
+<input type="search" class="search">
+    <a href="#" class="home">Home</a>
+<a href="#" class="about">About</a>
+<a href="#" class="service">Services</a>
+<a href="#" class="feedback">Feedback</a>
+<a href="#" class="help">Help</a>
+</div>
+
+<br>
+<br>
+
     
  <fieldset class="field"><legend>VEBBOX SOFTWARE SOLUTION</legend>
     <form action="" class="form">  
     <br>
+    <div class="full">
     <div class="head">
     <h2 >Appliaction Form</h2>
     </div>
@@ -27,91 +44,97 @@
 <br>
 <br>
   
-    <label for="name">Name :</label>
-    <input type="text" id="name" class="inputbox" maxlength="20" minlength="4" required>
+    <label for="name" >Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+    <input type="text"  id="name" class="nm" maxlength="20" minlength="4" required>
     <br>
     <br>
-    <label for="father">Father Name :</label>
+    <label for="father">Father Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
     <input type="text" id="father" class="fathernm" maxlength="20" minlength="4" required>
     <br><br>
-    <label for="age" >Age :</label>
+    <label for="age" >Age &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
     <input type="number" id="age" class="age" maxlength="2" minlength="2" required>
     <br><br>
     
     
-    Gender :<div class="radio">
+    Gender &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<div class="radio">
     <input type="radio" name="gender" id="male" value="Male" required><label for="male">Male </label>
 <br><br>
     
     <input type="radio" name="gender" id="female" value="female" required><label for="female">Female</label>
     <br><br>
 </div>
-    <label for="date">D.O.B</label>
-    <input type="date" class="inputbox" id="date" required>
+    <label for="date">D.O.B  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+    <input type="date" class="dob" id="date" required>
     <BR><BR>
 
 
- Qualification : 
- <div class="ql"><input type="radio" id="10th" name="ql" required><label for="10th">10th</label>
-
+ Qualification &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 
+ <div class="ql">
+    <input type="radio" id="10th" name="ql" required><label for="10th">10th</label>
+<br>
+<br>
  <input type="radio" id="12th" name="ql" required>
  <label for="12th">12th </label>
-
- <input type="radio" id="Bachlor" name="ql" required>
+ <br>
+ <br>
+ <input type="radio" class="ch" id="Bachlor" name="ql" required>
  <label for="Bachlor">Bachlor Degree</label>
- 
+ <br>
+<br>
  <input type="radio" id="Master" name="ql" required>
  <label for="Master">Master Degree</label>
 </div>
  <br><br>
 
- <label for="date1">Y.P.O :</label>
- <input type="date" id="date1" class="inputbox" required>
+ <label for="date1">Y.P.O &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+ <input type="date" id="date1" class="yop" required>
  
  <BR><BR>
 
- Choose You'r Course :
+ Choose You'r Course &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
  <div class="course">
  <input type="checkbox" id="Web" >
  <label for="Web">Web Development</label>
- 
+ <br>
+<br>
  <input type="checkbox" id="Software" >
  <label for="Software">Software Testing Course</label>
-
+ <br>
+ <br>
  <input type="checkbox" id="Graphic" >
  <label for="Graphic">Graphic Design Course</label>
 </div>
  <br><br>
 
 
- <label for="state">State Name :</label>
+ <label for="state">State Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
  <input type="TEXT" id="state" class="stnm" required maxlength="10" minlength="2">
 
  <br><br>
  
- <br><label for="add">Address :</label><br><textarea name="add" id="add" cols="30" class="add" rows="4"></textarea>
+ <br><label for="add">Address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</label><br><textarea name="add" id="add" cols="30" class="add" rows="4"></textarea>
 
 <br><br>
- <label for="month">Joining Month :</label>
+ <label for="month">Joining Month &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
  <input type="month" id="month" class="month" required>
 
 <br><br>
 
- <label for="email">Email :</label>
-    <input type="email" id="email" class="inputbox" required maxlength="20" minlength="5">
+ <label for="email">Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</label>
+    <input type="email" id="email" class="mail" required maxlength="20" minlength="5">
  
 <br><br>
 
-<label for="num">Phone Number :</label>
+<label for="num">Phone Number &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
     <input type="number" class="phno" id="num" required maxlength="15" minlength="9">
  
 <br><br>
 
-<textarea name="para1" id="para"  class="text" readonly cols="30" rows="10">Please you fill both details to submit your details also the details will be store in the database so please fill the details after click on the submit button..</textarea>
+<textarea name="para1" id="para"  class="text" readonly cols="30" rows="2">Please you fill both details to submit your details also the details will be store in the database so please fill the details after click on the submit button..</textarea>
 <br>
 
 <div class="agree">
-<input type="checkbox" required id="term"><label for="term">Agree Terms And Condition</label>
+<input type="checkbox"  required id="term"><label for="term" class="ag">Agree Terms And Condition</label>
 </div>
 <br>
 <br>
@@ -120,7 +143,7 @@
 <div class="d">
 <input type="submit" value="Register" class="btn">
 </div>
-
+</div>
 
 </form> 
 </fieldset>
